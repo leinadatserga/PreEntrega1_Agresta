@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(34, 30, 30);
+}
+
+
+
+
+
+/* Estilos para el encabezado */
+
+header {
+    height: 220px;
+    background-image: url(../assets/images/Screenshot_1.jpg);
+    background-size: cover;
+}
+.grupo1 {
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.grupo1 img {
+    height: 180px;
+    width: 15%;
+    background-color: rgba(255, 228, 196, 0.096);
+    float: left;
+}
+
+h1 {
+    display: inline-block;
+    height: 180px;
+    width: 68%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    color: rgb(1, 61, 1);
+    font-size: 4rem;
+    padding: 40px 0 40px 0;
+}
+
+.grupo1 button {
+    width: 15%;
+    height: 180px;
+    font-size: 20px;
+    background-color: burlywood;
+    float: right;
+}
+
+.grupo1 button a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Estilos para los botones */
+main {
+    height: 600px;
+}
+.grupo2 {
+    width: 100%;
+    height: 100%;
+}
+.banner-lateral1, .banner-lateral2 {
+    width: 20%;
+    height: 100%;
+    padding: 50px; /* Centra horizontalmente */
+    text-align: center;
+    position: relative;
+}
+
+.banner-lateral1 {
+    float: left;
+}
+
+.banner-lateral2 {
+    float: right;
+}
+
+.banner-lateral1 button, .banner-lateral2 button {
+    display: block;
+    width: 61%;
+    margin: auto;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 10px;
+    border: 1px solid black;
+    position: absolute;
+}
+
+.banner-lateral1 button a, .banner-lateral2 button a {
+    text-decoration: none;
+    color: black;
+}
+
+#button1 {
+    top: 12%;
+    padding: 10px; /* Agrega relleno para separar los botones */
+    border: 1px solid #ccc;
+}
+
+#button2 {
+    top: 35%;
+    padding: 10px; /* Agrega relleno para separar los botones */
+    border: 1px solid #ccc;
+}
+
+#button3 {
+    top: 58%;
+    padding: 10px; /* Agrega relleno para separar los botones */
+    border: 1px solid #ccc;
+}
+
+#button4 {
+    top: 80%;
+    margin-bottom: 10px;
+    padding: 10px; /* Agrega relleno para separar los botones */
+    border: 1px solid #ccc;
+}
+
+#button5 {
+    top: 15%;
+    margin-bottom: 10px;
+    padding: 10px; /* Agrega relleno para separar los botones */
+    border: 1px solid #ccc;
+}
+
+#button6 {
+    top: 48%;
+    padding: 10px; /* Agrega relleno para separar los botones */
+    border: 1px solid #ccc;
+}
+
+#button7 {
+    top: 80%;
+    padding: 10px; /* Agrega relleno para separar los botones */
+    border: 1px solid #ccc;
+}
+
+/* Estilos para la imagen principal */
+.grupo2 img {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    color: white;
+}
+
+.redes-sociales img {
+  
+    color: aliceblue important;
+    width: 20px;
+    height: 20px;
+}
